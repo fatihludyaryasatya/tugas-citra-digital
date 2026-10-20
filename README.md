@@ -10,13 +10,14 @@ Pembuktian bahwa citra digital adalah susunan angka, menggunakan Python di Googl
 - Modifikasi angka piksel dan rekonstruksi gambar
 - Analisis metadata (format, ukuran, EXIF)
 
-## Struktur Folder
-- `notebook/` : notebook Google Colab
-- `gambar/` : gambar asli dan hasil rekonstruksi
-- `output/` : potongan nilai piksel (CSV dan NPY)
+## Struktur File
+- `tugas_citra_digital.ipynb` : notebook Google Colab (kode dan penjelasan)
+- `hasil_rekonstruksi.png` : gambar hasil rekonstruksi dari array angka
+- `gray_8x8.csv` : nilai grayscale potongan 8x8 piksel
+- `piksel_5x5.npy` : nilai RGB potongan 5x5 piksel (format NumPy)
 
 ## Cara Menjalankan
-Buka `notebook/citra_digital.ipynb` di Google Colab, upload gambar, lalu Run All.
+Buka `tugas_citra_digital.ipynb` di Google Colab, upload gambar, lalu Run All.
 
 ## Penulis
 Fatih Ludy Aryasatya, NIM 24260047
