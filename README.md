@@ -17,7 +17,11 @@ Pembuktian bahwa citra digital adalah susunan angka, menggunakan Python di Googl
 - `piksel_5x5.npy` : nilai RGB potongan 5x5 piksel (format NumPy)
 
 ## Cara Menjalankan
-Buka `tugas_citra_digital.ipynb` di Google Colab, upload gambar, lalu Run All.
+1. Buka `tugas_citra_digital.ipynb` di Google Colab.
+2. Simpan foto (format HEIC) di Google Drive, lalu sesuaikan `drive_path` pada sel pertama dengan lokasi foto tersebut.
+3. Klik **Runtime → Run all** dan izinkan akses Google Drive saat diminta.
+
+Foto asli tidak disertakan di repository karena mengandung metadata pribadi (termasuk lokasi GPS). Hasil pengolahan sudah tersimpan pada output notebook dan file hasil di atas.
 
 ## Penulis
 Fatih Ludy Aryasatya, NIM 24260047
